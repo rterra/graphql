@@ -14,24 +14,24 @@
   
   - Escrevendo o primeiro client angular para ler dados do Github através da interface GraphQL;
 
-## Ferramentas ( 30 min )
+## Ferramentas ( 40 min )
   - GraphiQL; 
   
   - Playground;
   
   - GraphQL Mock data; 
 
-## Entendendo mais profundamente ( 15min )
+## Entendendo mais profundamente ( 20 min )
   - Protocolo de chamada GraphQL;
   
   - Por que precisamos de um cliente graphQL?;
   
-#### Mão na massa - Parte II ( 30 min )
-  - Implementando uma chamada manual ao graphQL server;
+  #### Mão na massa - Parte II ( 30 min )
+    - Implementando uma chamada manual ao graphQL server;
+
+    - Como configurar um projeto angular para usar o Apollo Client;
   
-  - Como configurar um projeto angular para usar o Apollo Client;
-  
-## Conceitos do GraphQL Apollo Client ( 20 min )
+## Conceitos do GraphQL Apollo Client ( 30 min )
   - Cache; 
   
   - Normalização; 
@@ -40,16 +40,16 @@
   
   - Gerenciando estados locais com Apollo Client; 
 
-#### Mão na massa - Parte III ( 30 min )
-  - Exemplos práticos dos conceitos considerados no item anterior;
-  
-  - Ferramentas de apoio ao Apollo Client
-  
-    - Extensão Chrome; 
-    
-    - Extensão Visual Code; 
+  #### Mão na massa - Parte III ( 30 min )
+    - Exemplos práticos dos conceitos considerados no item anterior;
 
-## Dicas para Debugar clientes GraphQL com as ferramentas Apollo Client  ( 10 min )
+    - Ferramentas de apoio ao Apollo Client
+
+      - Extensão Chrome; 
+
+      - Extensão Visual Code; 
+
+## Dicas para Debugar clientes GraphQL com as ferramentas Apollo Client  ( 20 min )
 
 ## Server side .NET ( 40m )
   - O que é o GraphQL server runtime;
@@ -58,13 +58,13 @@
   
   - Conceitos da graphql-dotnet;
   
-#### Mão na massa - Parte IV ( 1h )  
+  #### Mão na massa - Parte IV ( 1h )  
 
-  - Configurando o graphql-dotnet com asp.net core;
-  
-  - Configurando nosso primeiro graphQL schema backend;
-  
-  - Implementando ObjectGraphType classes e debugando chamadas do cliente;
+    - Configurando o graphql-dotnet com asp.net core;
+
+    - Configurando nosso primeiro graphQL schema backend;
+
+    - Implementando ObjectGraphType classes e debugando chamadas do cliente;
   
 ## Construindo APIs com GraphQL ( 40 min )
 
@@ -72,6 +72,17 @@
   
   - Pontos de atenção ao modelar uma interface graphQL;
   
-  
+## Tópicos avançados com GraphQL ( 30 min )
 
-  - Tópicos futuros: Subscriptions, fragments, unions, typescript, AWS, persisted queries, batchs,  
+  - Subscriptions;
+  
+  - Fragments and unions;
+  
+  - Persisted Queries;
+  
+  - Batch Queries;
+  
+  - Optimistic Resolution;
+
+
+## Perguntas e Respostas ( 20 min )
