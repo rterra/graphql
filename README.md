@@ -1,55 +1,77 @@
 # Ementa do treinamento de introdução ao GraphQL
 
-- Introdução 
+## Introdução ( 30 min )
 
-  - Motivação para criar GraphQL 
+  - Motivação para criar GraphQL;
 
-  - Problemas com REST API 
+  - Problemas com REST API ;
 
   - Características e potencial do GraphQL 
 
-  - Ideal fetch; batch fetch; persisted queries; 
 
-- Explorando a API GraphQL Github ( exemplos e exercícios ) 
+#### Mão na massa - Parte I ( 1h )
+  - Nosso primeiro uso do GraphQL - Usando Github GraphQL interface;
+  
+  - Escrevendo o primeiro client angular para ler dados do Github através da interface GraphQL;
 
-- Primeiro cliente angular Github ( github com um exemplo ) 
+## Ferramentas ( 30 min )
+  - GraphiQL; 
+  
+  - Playground;
+  
+  - GraphQL Mock data; 
 
-- Ferramentas 
+## Entendendo mais profundamente ( 15min )
+  - Protocolo de chamada GraphQL;
+  
+  - Por que precisamos de um cliente graphQL?;
+  
+#### Mão na massa - Parte II ( 30 min )
+  - Implementando uma chamada manual ao graphQL server;
+  
+  - Como configurar um projeto angular para usar o Apollo Client;
+  
+## Conceitos do GraphQL Apollo Client ( 20 min )
+  - Cache; 
+  
+  - Normalização; 
+  
+  - Paginação, Autenticação e programação reativa com Apollo Client; 
+  
+  - Gerenciando estados locais com Apollo Client; 
 
-  - GraphiQL 
+#### Mão na massa - Parte III ( 30 min )
+  - Exemplos práticos dos conceitos considerados no item anterior;
+  
+  - Ferramentas de apoio ao Apollo Client
+  
+    - Extensão Chrome; 
+    
+    - Extensão Visual Code; 
 
-  - Playground 
+## Dicas para Debugar clientes GraphQL com as ferramentas Apollo Client  ( 10 min )
 
-  - Mock ( FakeQL (https://fakeql.com/), CoolGraphQL(?) ) 
+## Server side .NET ( 40m )
+  - O que é o GraphQL server runtime;
+  
+  - .NET libraries for GraphQL;
+  
+  - Conceitos da graphql-dotnet;
+  
+#### Mão na massa - Parte IV ( 1h )  
 
-- Chamando o GraphQL manualmente; ( um exemplo ) 
+  - Configurando o graphql-dotnet com asp.net core;
+  
+  - Configurando nosso primeiro graphQL schema backend;
+  
+  - Implementando ObjectGraphType classes e debugando chamadas do cliente;
+  
+## Construindo APIs com GraphQL ( 40 min )
 
-- Entrando em detalhes com o Apollo Client 
+  - Quando não é bom usar; 
+  
+  - Pontos de atenção ao modelar uma interface graphQL;
+  
+  
 
-- Cache; 
-
-- Normalização; ( https://www.youtube.com/watch?v=zWhVAN4Tg6M ) 
-
-- Paginação / Autenticação / Watch query; 
-
-- Local state; 
-
-- Ferramentas com o Apollo Client 
-
-- Extensão Chrome; 
-
-- Visual Code; 
-
-- Server side – dotnet 
-
-- Descrição; 
-
-- Input types; 
-
-- Construindo APIs 
-
-- Problemas com GraphQL 
-
-- Quando não é bom usar; 
-
-- Tópicos futuros: Subscriptions, fragments, unions, typescript, AWS, persisted queries, batchs,  
+  - Tópicos futuros: Subscriptions, fragments, unions, typescript, AWS, persisted queries, batchs,  
