@@ -3,3 +3,5 @@
 ################################################################################
 
 /hands-on/graphql-server/GraphqlServer/obj
+/hands-on/graphql-server/.vs
+/hands-on/graphql-server/GraphqlServer/bin/Debug/netcoreapp2.1
