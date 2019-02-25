@@ -6,13 +6,13 @@
 
   - Problemas com REST API ;
 
-  - Características e potencial do GraphQL 
+  - Características e potencial do GraphQL;
 
 
-#### Mão na massa - Parte I ( 1h )
-  - Nosso primeiro uso do GraphQL - Usando Github GraphQL interface;
-  
-  - Escrevendo o primeiro client angular para ler dados do Github através da interface GraphQL;
+  #### Mão na massa - Parte I ( 1h )
+    - Nosso primeiro uso do GraphQL - Usando Github GraphQL interface;
+
+    - Escrevendo o primeiro client angular para ler dados do Github através da interface GraphQL;
 
 ## Ferramentas ( 40 min )
   - GraphiQL; 
