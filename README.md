@@ -1,4 +1,5 @@
 # Ementa do treinamento de introdução ao GraphQL
+[Material preparatório de referencia](./referencias/material_de_referencia_preparacao.md)
 
 ## Introdução ( 30 min )
 
@@ -37,7 +38,7 @@
   - Normalização; 
   
   - Paginação, Autenticação e programação reativa com Apollo Client; 
-  
+    
   - Gerenciando estados locais com Apollo Client; 
 
   #### Mão na massa - Parte III ( 30 min )
