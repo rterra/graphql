@@ -1,4 +1,4 @@
-﻿Documentação:
+Documentação:
 
 https://developer.github.com/v4/
 
@@ -37,4 +37,20 @@ https://developer.github.com/v4/explorer/
 
 }
 
-Conce
+Conceitos
+
+- Query Language
+  
+  - query default;
+
+  - queries similares a store procedures, mas temos de determinar a saída;
+
+  - As a query se confunde com o type, exemplo, configuration;
+
+  - Exemplo de parametros. Note que os parametros como filtros podem ser mais convenções que algo da linguagem. Como no github after, before, first, last. Isto não é parte
+  do graphql runtime. Os resolvers é que vão fazer essa associação.
+
+  - Existe o tipo, a query, o alias e a query client side
+     tipo User, query watchers(order activity), 
+     top_watchers, observable com campos específicos.
+

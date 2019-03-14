@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GraphQL.Types;
 
 namespace GraphqlServer.GraphQL
 {
-    public class GraphQLSchema
+    public class GraphQLSchema : Schema
     {
+        public GraphQLSchema(Query query)
+        {
+            Query = query;
+        }
     }
 }
