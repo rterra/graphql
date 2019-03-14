@@ -1,0 +1,40 @@
+﻿Documentação:
+
+https://developer.github.com/v4/
+
+
+
+GraphiQL Browser (é necessário logar)
+
+https://developer.github.com/v4/explorer/
+
+{
+
+  viewer {
+    login
+    createdAt
+  }
+
+  repository(owner:"rterra", name:"graphql") {
+    descriptionHTML
+    createdAt
+    
+    watchers {
+      totalCount
+    }
+
+    quantos: watchers {
+      totalCount
+    }
+
+    quantos_recentes: watchers(last: 2) {
+      nodes {
+        login
+      }
+    }
+
+  }
+
+}
+
+Conce

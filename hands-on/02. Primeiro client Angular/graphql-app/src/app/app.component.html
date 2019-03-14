@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Bem-vindo a {{ title }}!
+  </h1>
+  <img width="300" alt="Angular Logo" src="https://graphql.org/img/logo.svg">
+</div>
+<h2>Sua primera chamada GraphQL: </h2>
+<button (click)="getCurrentRepoDescription()">Chame GraphQL</button>
+<div *ngIf="graphQLhttp$ | async as response">{{response.data.repository.description}}</div>
+
