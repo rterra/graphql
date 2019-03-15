@@ -29,6 +29,10 @@ namespace GraphqlServer
 
             app.Run(async (context) =>
             {
+                context.Response.Headers.Add("Access-Control-Allow-Origin", new Microsoft.Extensions.Primitives.StringValues("*"));
+                context.Response.Headers.Add("Access-Control-Allow-Headers", new Microsoft.Extensions.Primitives.StringValues("*"));
+                context.Response.Headers.Add("Access-Control-Allow-Methods", new Microsoft.Extensions.Primitives.StringValues("*"));
+
                 if (context.Request.Path.StartsWithSegments("/api/graphql")
                          && string.Equals(context.Request.Method, "POST", StringComparison.OrdinalIgnoreCase))
                 {

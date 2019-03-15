@@ -7,6 +7,7 @@ namespace GraphqlServer.GraphQL
         public GraphQLSchema(Query query)
         {
             Query = query;
+            Mutation = new Mutation();
         }
     }
 }

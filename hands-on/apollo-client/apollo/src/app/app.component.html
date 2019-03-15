@@ -1,0 +1,32 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<h2>Here are some links to help you start: </h2>
+
+<button (click)="mutate()">Mutate</button>
+<br/>
+<button (click)="refresh()">Refresh</button>
+
+<ng-container *ngIf="result$ | async as result; else loading">
+  <ng-container [ngSwitch]="result.networkStatus" >
+      <ng-container *ngSwitchCase="NetworkStatus.loading" [ngTemplateOutlet]="loading"></ng-container>
+      <ng-container *ngSwitchCase="NetworkStatus.ready" [ngTemplateOutlet]="ready" [ngTemplateOutletContext]="{result:result}"></ng-container>
+      <ng-container *ngSwitchCase="NetworkStatus.error" [ngTemplateOutlet]="error"></ng-container>
+  </ng-container>
+</ng-container>
+
+<ng-template #ready let-pessoa="result.data.pessoa">
+{{pessoa.name}}
+</ng-template>
+
+<ng-template #error>
+Error
+</ng-template>
+
+
+<ng-template #loading>
+  Loading....
+</ng-template>
